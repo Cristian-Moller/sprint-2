@@ -1,0 +1,52 @@
+$primary: #fca311;
+$secondary: #14213d;
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+body{
+    margin: 0 auto;
+}
+
+#col-left{
+    /* border: 1px solid black; */
+    height: 35rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    
+    #button-browser1{
+        background-color: $blue-500;    
+    }
+    #button-browser1:hover {
+        opacity: 0.8;
+      }
+    #button-browser2{
+        background-color: $gray-200;    
+    }
+    #button-browser2:hover {
+        opacity: 0.8;
+      }
+}
+
+#col-right{
+    /* border: 1px solid black; */
+    padding: 2rem;
+    height: 35rem;
+    
+    img{
+        width: 35rem;
+        height: auto;
+        left: 48%;
+    }
+    div{
+        border-bottom-left-radius: 10rem;
+        background-color: $blue-500;
+        width: 27rem;
+        height: 20rem;
+        margin-top: -15rem;
+        margin-left: 10rem;
+    }
+
+}
