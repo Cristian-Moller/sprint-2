@@ -184,3 +184,31 @@ body {
     }
   }
 }
+
+#download{
+  margin-bottom: 2rem;
+  .card{
+    height: fit-content;
+    align-items: center;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  img{
+    width: 50%;
+  }
+  a{
+    font-size: 0.75rem;
+  }
+  #browser1{
+    margin-top: 1rem;
+  }
+  #browser2{
+    margin-top: 2.5rem;
+  }
+  #browser3{
+    margin-top: 3.7rem;
+    img{
+      width: 45%;
+    }
+  }
+}
