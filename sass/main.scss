@@ -230,3 +230,13 @@ body {
 button.accordion-button.collapsed::after{
   background-image: var(--bs-accordion-btn-active-icon);
 }
+
+footer{
+  ul{
+    align-items: center;
+  }
+  p{
+    font-size: small;
+    padding-top: 1rem;
+  }
+}
